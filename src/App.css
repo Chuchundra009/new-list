@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(231, 225, 217);
+}
+
+.App {
+  background-color: rgb(243, 239, 235);
+  min-height: 90vh;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.one-img {
+  border-radius: 150px;
+  padding: 20px;
+}
+
+.two-img {
+  border-radius: 100px;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0% 50%;
+  padding: 20px;
+}
+
+.crossed {
+  text-decoration: line-through 2 px red;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1 {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  width: 70%;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+}
+
+.btn-add{
+  background-color: rgb(180, 207, 143);
+  margin-top: 5px;
+}
+
+.btn-del{
+  background-color: rgb(189, 116, 56);
+}
