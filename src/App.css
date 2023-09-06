@@ -25,7 +25,7 @@ body {
 }
 
 .crossed {
-  text-decoration: line-through 2 px red;
+  text-decoration: line-through 2px red;
   background-color: #f0f0f0;
 }
 
